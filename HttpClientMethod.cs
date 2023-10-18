@@ -5,7 +5,7 @@ namespace HttpClient2;
 
 public abstract class HttpClientMethod
 {
-    private static string _apiUri = "https://reqres.in/api/users/2";
+    private static string _apiUri = "https://reqres.in/api/users/3";
 
     public static async Task<Root?> GetAsyncMethod()
     {
